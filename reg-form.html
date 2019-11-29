@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<h1 class="mt-5 text-center">REgistration Form</h1>
+  
+<div class="container">
+  <div class="form border border-info mx-auto mt-5"  style="width: 40%">
+  	<form class="p-5" action="" method="" onsubmit="return validate()">
+  		<div class="form-group">
+  			<input type="" class="form-control" id="name" placeholder="Name" name="">
+  			<span id="nameerr" class="text-danger"></span>
+  		</div>
+  		<div class="form-group">
+  			<input type="" class="form-control" id="ln" placeholder="Name" name="">
+  			<span id="lerror" class="text-danger"></span>
+  		</div>
+  		<button type="submit" class="btn btn-success  text-center">SUBMIT</button>
+  	</form>
+  </div>
+</div>
+
+<script>
+	function validate(){
+		var name = document.getElementById('name').value;
+		if (name == "") {
+			document.getElementById('nameerr').innerHTML='**please fill the field';
+			return false;
+		}
+		var lname=document.getElementById('ln').value;
+		if(lname == ""){
+			document.getElementById('lerror').innerHTML='please enter name';
+			return false;
+		}
+
+
+	}
+</script>
+</body>
+</html>

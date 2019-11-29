@@ -1,0 +1,136 @@
+.banner {
+    background-image: url(../img/i2.jpg);
+    padding: 5%;*/
+   width: 100%;
+   height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*.banner:before {
+    content: '';
+    height: 600px;
+    width: 100%;
+    background-color: #00000026;
+    position: absolute;
+    margin-top: -68px;
+    margin-left: -68px;
+}*/
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 1px 1px 1px #353434;
+}
+.text{
+	padding: 117px;
+}
+/*.text-muted {
+    color: #6c757d!important;
+    padding-top: 96px;
+}*/
+.text-primary {
+    color: #007bff!important;
+    text-decoration: none;
+}
+.happy-clints{
+    padding-top: 70px;
+}
+.text1{
+    margin-bottom: 20px;  
+}
+#detail-1{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+#detail-2{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+#detail-3{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+#detail-4{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+.p-5 {
+    padding: 1rem!important;
+}
+    section.color-setting {
+    padding-bottom: 50px;
+    background-color: #3b4f58e8;
+    padding-top:  50px;
+ }
+    .travel{
+        line-height: 20px;
+        word-spacing: 2px;
+        font-family: cursive;
+        color: rgba(255, 255, 255, 0.56);
+    }
+.bg-light {
+    background-color: #f8f9fa!important;
+    padding-bottom: 126px;
+}
+.footer{
+    padding-top: 15px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 242px;
+}
+.ourblog{
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+/*.text2{
+    margin-top: 150px;
+}*/
+/*.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 674px;
+}*/
+/*.text1{
+	height: 674px;
+}*/
+
+./*card-columns{
+    border-width: 150px;
+}*/
+/*.testimonial {
+    margin-top: 68px;
+    background-color: white;
+    padding: 31px;
+    position: relative;
+    margin-bottom: 3em;
+    height: 268px;
+}*/
+
+/*.testimonial blockquote{
+    border-left: none;
+    padding: 0;
+    margin: 0;
+}
+.testimonial p.author img {
+    width: 112px;
+    margin-right: 36px;
+    margin-top: 44px;
+}
+.arrow:after {
+    content: '';
+    position: absolute;
+    border-left: 20px solid white;
+    border-right: 20px solid #ff000000;
+    border-bottom: 20px solid #ff000000;
+    border-top: 20px solid white;
+    margin-top: 5px;
+    margin-left: 25px;
+}*/
